@@ -1,0 +1,37 @@
+{
+  "products": [
+    {
+      "name": "",
+      "price": "",
+      "category": "",
+      "star": "",
+      "detail": "",
+      "discount": "",
+      "image": {},
+      "comment": "",
+      "like": 0,
+      "groups": "",
+      "id": "6069"
+    },
+ 
+    {
+      "id": "ff36",
+      "name": "vahid"
+    }
+  ],
+  "groups": [
+    {
+      "id": "1",
+      "name": "Dining"
+    },
+    {
+      "id": "2",
+      "name": "Living"
+    },
+    {
+      "id": "3",
+      "name": "Bedroom"
+    }
+  ],
+  "user": []
+}
