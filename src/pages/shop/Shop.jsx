@@ -1,12 +1,13 @@
 import { useContext } from "react";
 import { ContextApp } from "../../contexts/ContextApp";
-import { Product } from "../../components";
+import { Product, Products } from "../../components";
 
-const Shop = (product) => {
-  console.log(product.product);
+const Shop = () => {
+  const { products } = useContext(ContextApp);
+
   return (
     <div>
-      <div>
+      <div className="row">
         {/* {Object.keys(setProducts).length > 0 && (
           <div>
             <h2>{setProducts.name}</h2>
@@ -21,6 +22,9 @@ const Shop = (product) => {
             <h2>{setProducts.groups}</h2>
           </div>
         )} */}
+        {products.length > 0
+          ? products.map((l) => <Products key={l.id} product={l} />)
+          : null}
       </div>
     </div>
   );

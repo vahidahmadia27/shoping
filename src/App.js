@@ -1,4 +1,4 @@
-import { Navbar, Product } from "./components/index";
+import { Navbar } from "./components/index";
 import { Routes, Route, Navigate, useNavigate } from "react-router-dom";
 
 import { AboutUs, Blogs, Home, Shop } from "./pages/index";
@@ -28,15 +28,12 @@ const App = () => {
   const navigate = useNavigate();
   return (
     <div className="container-fluid">
-      <ContextApp.Provider>
+      <ContextApp.Provider value={{ products }}>
         <Navbar />
         <Routes>
           <Route path="/" element={<Navigate to="/home" />} />
           <Route path="/Home" element={<Home to="/home" />} />
-          <Route
-            path="/shop"
-            element={<Shop product={products} to="/shop" />}
-          />
+          <Route path="/shop" element={<Shop to="/shop" />} />
           <Route path="/aboutUs" element={<AboutUs to="/aboutUs" />} />
           <Route path="/blogs" element={<Blogs to="/blogs" />} />
         </Routes>
