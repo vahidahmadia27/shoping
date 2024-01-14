@@ -88,3 +88,11 @@
   text-decoration: none;
   color: black;
 }
+
+/* product */
+
+.product img {
+  width: 100%;
+  object-fit: contain;
+  height: 300px;
+}
