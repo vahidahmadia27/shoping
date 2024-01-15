@@ -8,7 +8,7 @@ export const getAllProducts = () => {
 };
 // contacts GET method with ID parameter
 export const getProduct = (productId) => {
-  const url = `${SERVER_URL}/product/${productId}`;
+  const url = `${SERVER_URL}/products/${productId}`;
   return axios.get(url);
 };
 
