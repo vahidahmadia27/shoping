@@ -5,38 +5,39 @@ import { useContext } from "react";
 import { ContextApp } from "../contexts/ContextApp";
 
 const ViewProducts = () => {
-  const { products, setProducts } = useContext(ContextApp);
+  const { product, setProduct } = useContext(ContextApp);
+
   const { productId } = useParams();
   useEffect(() => {
     const fetchData = async () => {
       try {
         const { data: productData } = await getProduct(productId);
-        setProducts(productData);
+        setProduct(productData);
       } catch (err) {
         console.log(err);
       }
     };
 
     fetchData();
-  }, [productId]);
+  }, []);
   return (
     <>
-      {Object.keys(products).length > 0 && (
+      {Object.keys(product).length > 0 && (
         <section className="view-contact mt-e">
           <div className="container-fluid p-2">
             <div className="row align-items-center">
               <div className="col-6">
                 <div className="d-flex flex-column justify-content-around">
                   <div>
-                    <h2 className="text-start">{products.name}</h2>
+                    <h2 className="text-start">{product.name}</h2>
                   </div>
                   <div>
-                    <p>{products.detail}</p>
+                    <p>{product.detail}</p>
                   </div>
                 </div>
               </div>
               <div className="col-6">
-                <img src={products.image} alt={products.image} />
+                <img src={product.image} alt={product.image} />
               </div>
             </div>
             <div className="row my-2 text-center">

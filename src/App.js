@@ -10,6 +10,7 @@ import { useState, useEffect } from "react";
 
 const App = () => {
   const [products, setProducts] = useState({});
+  const [product, setProduct] = useState({});
   const [loading, setloading] = useState(false);
   const [groups, setGroups] = useState([]);
 
@@ -28,7 +29,9 @@ const App = () => {
   const navigate = useNavigate();
   return (
     <div className="container-fluid">
-      <ContextApp.Provider value={{ products, setProducts }}>
+      <ContextApp.Provider
+        value={{ products, setProducts, product, setProduct }}
+      >
         <Navbar />
         <Routes>
           <Route path="/" element={<Navigate to="/home" />} />

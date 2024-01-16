@@ -1,6 +1,7 @@
-import { useContext } from "react";
+import { useContext, useEffect } from "react";
 import { ContextApp } from "../../contexts/ContextApp";
 import { Products } from "../../components";
+import { getAllProducts } from "../../services/service";
 
 const Shop = () => {
   const { products } = useContext(ContextApp);
@@ -23,7 +24,7 @@ const Shop = () => {
           </div>
         )} */}
         {products.length > 0
-          ? products.map((l) => <Products products={l} key={l.id} />)
+          ? products.map((l) => <Products product={l} key={l.id} />)
           : null}
       </div>
     </div>
