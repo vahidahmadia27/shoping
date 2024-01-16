@@ -23,7 +23,7 @@ const Shop = () => {
           </div>
         )} */}
         {products.length > 0
-          ? products.map((l) => <Products key={l.id} product={l} />)
+          ? products.map((l) => <Products products={l} key={l.id} />)
           : null}
       </div>
     </div>
