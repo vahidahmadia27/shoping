@@ -105,9 +105,9 @@
 
 /* viewProducts */
 .view-contact img {
-  object-fit: cover;
+  object-fit: contain;
   width: 100%;
-  height: 500px;
+  height: 400px;
 }
 
 .btn-preview {
@@ -132,4 +132,9 @@
   -webkit-box-orient: vertical;
   overflow: hidden;
   -webkit-line-clamp: 3;
+}
+
+.location-url {
+  background-color: rgb(20, 238, 13);
+  color: withe;
 }
