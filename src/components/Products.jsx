@@ -6,7 +6,9 @@ const Products = ({ product }) => {
       <div className=" product m-1 ">
         <div className="d-flex flex-column justify-content-around">
           <div className="img-product col-12">
-            <img src={product.image} alt="" />
+            {product.images && product.images.length > 0 && (
+              <img src={product.images[0]} alt="Product 1" />
+            )}
           </div>
           <div className="text-product col-12 p-1">
             <h5>{product.name}</h5>

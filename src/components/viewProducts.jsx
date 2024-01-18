@@ -3,6 +3,11 @@ import { useEffect } from "react";
 import { getProduct } from "../services/service";
 import { useContext } from "react";
 import { ContextApp } from "../contexts/ContextApp";
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css";
+import "swiper/css/free-mode";
+import "swiper/css/navigation";
+import "swiper/css/thumbs";
 
 const ViewProducts = () => {
   const { product, setProduct } = useContext(ContextApp);
@@ -34,7 +39,15 @@ const ViewProducts = () => {
           <div className="container-fluid p-2">
             <div className="row align-items-center">
               <div className="col-6 ">
-                <img src={product.image} alt={product.image} />
+                {product.images && product.images.length > 0 && (
+                  <Swiper spaceBetween={10} slidesPerView={1}>
+                    {product.images.map((image, index) => (
+                      <SwiperSlide key={index}>
+                        <img src={image} alt={image} />
+                      </SwiperSlide>
+                    ))}
+                  </Swiper>
+                )}
               </div>
 
               <div className="col-6 ">
