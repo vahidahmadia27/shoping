@@ -4,9 +4,10 @@ import { getProduct } from "../services/service";
 import { useContext } from "react";
 import { ContextApp } from "../contexts/ContextApp";
 import { Swiper, SwiperSlide } from "swiper/react";
-import "swiper/css/free-mode";
-import "swiper/css/navigation";
-import "swiper/css/thumbs";
+import "../../node_modules/swiper/modules/free-mode.min.mjs";
+import "../../node_modules/swiper/modules/navigation";
+import "../../node_modules/swiper/modules/thumbs";
+import "../../node_modules/swiper/swiper-bundle";
 
 const ViewProducts = () => {
   const { product, setProduct } = useContext(ContextApp);
