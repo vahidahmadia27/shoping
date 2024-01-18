@@ -138,3 +138,7 @@
   background-color: rgb(20, 238, 13);
   color: withe;
 }
+
+.set-thumbs-swiper {
+  height: fit-content;
+}

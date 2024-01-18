@@ -1,13 +1,19 @@
 import { useParams, Link, useLocation } from "react-router-dom";
-import { useEffect, useState } from "react";
+import { useEffect, useState, useRef } from "react";
 import { getProduct } from "../services/service";
 import { useContext } from "react";
 import { ContextApp } from "../contexts/ContextApp";
+
+import "swiper/css";
+import "swiper/css/free-mode";
+import "swiper/css/navigation";
+import "swiper/css/thumbs";
+
+import "https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.js";
+import "../assets/style/swiper.css";
+
 import { Swiper, SwiperSlide } from "swiper/react";
-import "../../node_modules/swiper/modules/free-mode.min.mjs";
-import "../../node_modules/swiper/modules/navigation";
-import "../../node_modules/swiper/modules/thumbs";
-import "../../node_modules/swiper/swiper-bundle";
+import { FreeMode, Navigation, Thumbs } from "swiper/modules";
 
 const ViewProducts = () => {
   const { product, setProduct } = useContext(ContextApp);
@@ -17,6 +23,8 @@ const ViewProducts = () => {
   const urlProduct = pathPieces.slice(1, 3).join(">");
 
   const { productId } = useParams();
+  const { thumbsSwiper, setThumbsSwiper } = useState();
+
   useEffect(() => {
     const fetchData = async () => {
       try {
@@ -40,11 +48,13 @@ const ViewProducts = () => {
             <div className="row align-items-center">
               <div className=" col-2 p-1">
                 <Swiper
-                  spaceBetween={5}
+                  onSwiper={setThumbsSwiper}
                   slidesPerView={4}
+                  direction="vertical"
                   freeMode={true}
-                  watchSlidesVisibility
-                  watchSlidesProgress
+                  watchSlidesProgress={true}
+                  modules={[FreeMode, Navigation, Thumbs]}
+                  className="mySwiper"
                 >
                   {product.images.map((image, index) => (
                     <SwiperSlide key={index}>
@@ -53,8 +63,15 @@ const ViewProducts = () => {
                   ))}
                 </Swiper>
               </div>
-              <div className="col-4 ">
-                <Swiper spaceBetween={10} slidesPerView={1}>
+
+              <div className="text-product col-4 p-1">
+                <Swiper
+                  spaceBetween={10}
+                  navigation={true}
+                  thumbs={{ swiper: thumbsSwiper }}
+                  modules={[FreeMode, Navigation, Thumbs]}
+                  className="mySwiper2"
+                >
                   {product.images.map((image, index) => (
                     <SwiperSlide key={index}>
                       <img src={image} alt={`Product ${index + 1}`} />
