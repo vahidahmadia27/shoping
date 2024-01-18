@@ -1,10 +1,9 @@
 import { useParams, Link, useLocation } from "react-router-dom";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import { getProduct } from "../services/service";
 import { useContext } from "react";
 import { ContextApp } from "../contexts/ContextApp";
 import { Swiper, SwiperSlide } from "swiper/react";
-import "swiper/css";
 import "swiper/css/free-mode";
 import "swiper/css/navigation";
 import "swiper/css/thumbs";
@@ -14,7 +13,7 @@ const ViewProducts = () => {
   const location = useLocation();
   const pathPieces = location.pathname.split("/");
 
-  const firstTwoPathPieces = pathPieces.slice(1, 3).join(">");
+  const urlProduct = pathPieces.slice(1, 3).join(">");
 
   const { productId } = useParams();
   useEffect(() => {
@@ -34,20 +33,33 @@ const ViewProducts = () => {
       {Object.keys(product).length > 0 && (
         <section className="view-contact mt-e">
           <div className="location-url">
-            <p> {`${firstTwoPathPieces}>${product.name}`}</p>
+            <p> {`${urlProduct}>${product.name}`}</p>
           </div>
           <div className="container-fluid p-2">
             <div className="row align-items-center">
-              <div className="col-6 ">
-                {product.images && product.images.length > 0 && (
-                  <Swiper spaceBetween={10} slidesPerView={1}>
-                    {product.images.map((image, index) => (
-                      <SwiperSlide key={index}>
-                        <img src={image} alt={image} />
-                      </SwiperSlide>
-                    ))}
-                  </Swiper>
-                )}
+              <div className=" col-2 p-1">
+                <Swiper
+                  spaceBetween={5}
+                  slidesPerView={4}
+                  freeMode={true}
+                  watchSlidesVisibility
+                  watchSlidesProgress
+                >
+                  {product.images.map((image, index) => (
+                    <SwiperSlide key={index}>
+                      <img src={image} alt={`Product ${index + 1}`} />
+                    </SwiperSlide>
+                  ))}
+                </Swiper>
+              </div>
+              <div className="col-4 ">
+                <Swiper spaceBetween={10} slidesPerView={1}>
+                  {product.images.map((image, index) => (
+                    <SwiperSlide key={index}>
+                      <img src={image} alt={`Product ${index + 1}`} />
+                    </SwiperSlide>
+                  ))}
+                </Swiper>
               </div>
 
               <div className="col-6 ">
