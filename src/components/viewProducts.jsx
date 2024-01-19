@@ -47,7 +47,7 @@ const ViewProducts = () => {
           </div>
           <div className="container-fluid p-2">
             <div className="row align-items-center">
-              <div className=" col-2 p-1">
+              <div className="images-slider col-lg-2 col-md-6 col-sm-12  p-1">
                 <Swiper
                   onSwiper={setThumbsSwiper}
                   slidesPerView={4}
@@ -65,7 +65,7 @@ const ViewProducts = () => {
                 </Swiper>
               </div>
 
-              <div className="text-product col-4 p-1">
+              <div className="text-product col-lg-4 col-md-6 col-sm-12 col-12 d-sm-flex d-flex  p-1">
                 <Swiper
                   spaceBetween={10}
                   navigation={true}
@@ -81,7 +81,7 @@ const ViewProducts = () => {
                 </Swiper>
               </div>
 
-              <div className="col-6 ">
+              <div className="col-lg-6 col-md-12 col-sm-12 col-12 ">
                 <div className="d-flex flex-column justify-content-around m-4">
                   <div>
                     <h2 className="text-start">{product.name}</h2>
@@ -119,7 +119,7 @@ const ViewProducts = () => {
             <div className="row my-2 text-center">
               <div className="d-grid gap-2 col-12 mx-auto">
                 <Link to={`/shop`} className="btn">
-                  برگشت به صفحه اصلی
+                  Back to the store page{" "}
                 </Link>
               </div>
             </div>

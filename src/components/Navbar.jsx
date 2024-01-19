@@ -9,7 +9,7 @@ const Navbar = () => {
         <h5 className="d-inline">Furniro</h5>
       </div>
       <div className="col-8 ">
-        <ul className="centered-list d-flex">
+        <ul className="centered-list d-flex d-md-flex d-sm-none d-none">
           <li className="">
             <NavLink
               style={({ isActive }) => {
