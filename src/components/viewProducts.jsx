@@ -8,7 +8,6 @@ import "swiper/css";
 import "swiper/css/free-mode";
 import "swiper/css/navigation";
 import "swiper/css/thumbs";
-
 import "https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.js";
 import "../assets/style/swiper.css";
 
@@ -18,12 +17,13 @@ import { FreeMode, Navigation, Thumbs } from "swiper/modules";
 const ViewProducts = () => {
   const { product, setProduct } = useContext(ContextApp);
   const location = useLocation();
+
   const pathPieces = location.pathname.split("/");
 
   const urlProduct = pathPieces.slice(1, 3).join(">");
 
   const { productId } = useParams();
-  const { thumbsSwiper, setThumbsSwiper } = useState();
+  const { thumbsSwiper, setThumbsSwiper } = useState(null);
 
   useEffect(() => {
     const fetchData = async () => {
@@ -37,6 +37,7 @@ const ViewProducts = () => {
 
     fetchData();
   }, []);
+
   return (
     <>
       {Object.keys(product).length > 0 && (
@@ -57,7 +58,7 @@ const ViewProducts = () => {
                   className="mySwiper"
                 >
                   {product.images.map((image, index) => (
-                    <SwiperSlide key={index}>
+                    <SwiperSlide className="watch-slides-progress" key={index}>
                       <img src={image} alt={`Product ${index + 1}`} />
                     </SwiperSlide>
                   ))}
@@ -73,7 +74,7 @@ const ViewProducts = () => {
                   className="mySwiper2"
                 >
                   {product.images.map((image, index) => (
-                    <SwiperSlide key={index}>
+                    <SwiperSlide className="thumbs" key={index}>
                       <img src={image} alt={`Product ${index + 1}`} />
                     </SwiperSlide>
                   ))}
@@ -91,6 +92,26 @@ const ViewProducts = () => {
                   </div>
                   <div>
                     <p>{product.detail}</p>
+                  </div>
+                  <div className="">
+                    <h6>Size : </h6>
+                    {product.size.map((size, index) => (
+                      <small key={index} className="size ms-1 d-inline-block">
+                        {size}
+                      </small>
+                    ))}
+                  </div>
+                  <div>
+                    <h6 className="">colors : </h6>
+                    {product.color.map((color, index) => (
+                      <p
+                        key={index}
+                        className="colors ms-1 d-inline-block"
+                        style={{
+                          backgroundColor: color,
+                        }}
+                      ></p>
+                    ))}
                   </div>
                 </div>
               </div>

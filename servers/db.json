@@ -18,7 +18,17 @@
 
       "comment": "no comment",
       "like": 10,
-      "groups": "1"
+      "groups": "1",
+      "color":[
+        "green",
+        "black",
+        "orange"
+      ],
+      "size":[
+        "lg",
+        "md",
+        "sm"
+      ]
     },
     {
       "id": "dd00",
@@ -35,7 +45,17 @@
         "https://dkstatics-public.digikala.com/digikala-products/1ba8ddf53a5d753bbc67ad90679793482d5ef7e3_1666883770.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/quality,q_90"
       ],      "comment": "no comment",
       "like": 10,
-      "groups": "1"
+      "groups": "1",
+      "color":[
+        "green",
+        "black",
+        "orange"
+      ],
+        "size":[
+        "lg",
+        "md",
+        "sm"
+      ]
     },
     {
       "id": "81d6",
@@ -53,6 +73,17 @@
       ],      "comment": "no comment",
       "like": 10,
       "groups": "1"
+      ,
+      "color":[
+        "green",
+        "black",
+        "orange"
+      ],
+      "size":[
+      "lg",
+      "md",
+      "sm"
+    ]
     },
     {
       "id": "fdfc",
@@ -70,6 +101,17 @@
       ],      "comment": "no comment",
       "like": 10,
       "groups": "2"
+      ,
+      "color":[
+        "green",
+        "black",
+        "orange"
+      ],
+      "size":[
+      "lg",
+      "md",
+      "sm"
+    ]
     }
 
     ,
@@ -89,6 +131,17 @@
       ],      "comment": "no comment",
       "like": 10,
       "groups": "2"
+      ,
+      "color":[
+        "green",
+        "black",
+        "orange"
+      ],
+      "size":[
+      "lg",
+      "md",
+      "sm"
+    ]
     },
     {
       "id": "81d6",
@@ -106,6 +159,17 @@
       ],      "comment": "no comment",
       "like": 10,
       "groups": "1"
+      ,
+      "color":[
+        "green",
+        "black",
+        "orange"
+      ],
+      "size":[
+      "lg",
+      "md",
+      "sm"
+    ]
     },{
       "id": "e36d",
       "name": "8 seater sofa",
@@ -124,6 +188,17 @@
       "comment": "no comment",
       "like": 10,
       "groups": "1"
+      ,
+      "color":[
+        "green",
+        "black",
+        "orange"
+      ],
+      "size":[
+      "lg",
+      "md",
+      "sm"
+    ]
     }
     ,{
       "id": "dd00",
@@ -141,6 +216,17 @@
       ],      "comment": "no comment",
       "like": 10,
       "groups": "1"
+      ,
+      "color":[
+        "green",
+        "black",
+        "orange"
+      ],
+      "size":[
+      "lg",
+      "md",
+      "sm"
+    ]
     }
     ,
     {
@@ -159,6 +245,17 @@
       ],      "comment": "no comment",
       "like": 10,
       "groups": "2"
+      ,
+      "color":[
+        "green",
+        "black",
+        "orange"
+      ],
+      "size":[
+      "lg",
+      "md",
+      "sm"
+    ]
     },
     {
       "id": "81d6",
@@ -175,7 +272,19 @@
         "https://dkstatics-public.digikala.com/digikala-products/0db1f2d61d38b6fbd5627f900b83f1c4531c8b47_1687073041.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/quality,q_90"
       ],      "comment": "no comment",
       "like": 10,
+      
       "groups": "1"
+      ,
+      "color":[
+        "green",
+        "black",
+        "orange"
+      ],
+      "size":[
+      "lg",
+      "md",
+      "sm"
+    ]
     },{
       "id": "e36d",
       "name": "8 seater sofa",
@@ -194,6 +303,17 @@
       "comment": "no comment",
       "like": 10,
       "groups": "1"
+      ,
+      "color":[
+        "green",
+        "black",
+        "orange"
+      ],
+      "size":[
+      "lg",
+      "md",
+      "sm"
+    ]
     }
     ,{
       "id": "dd00",
@@ -211,6 +331,17 @@
       ],      "comment": "no comment",
       "like": 10,
       "groups": "1"
+      ,
+      "color":[
+        "green",
+        "black",
+        "orange"
+      ],
+      "size":[
+      "lg",
+      "md",
+      "sm"
+    ]
     }
    
   ],
