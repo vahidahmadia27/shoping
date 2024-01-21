@@ -1,5 +1,5 @@
 import { useParams, Link, useLocation } from "react-router-dom";
-import { useEffect, useState, useRef } from "react";
+import { useEffect, useRef } from "react";
 import { getProduct } from "../services/service";
 import { useContext } from "react";
 import { ContextApp } from "../contexts/ContextApp";
@@ -24,7 +24,6 @@ const ViewProducts = () => {
   const urlProduct = pathPieces.slice(1, 3).join(">");
 
   const { productId } = useParams();
-  // const { thumbsSwiper, setThumbsSwiper } = useRef(null);
   const thumbsSwiper = useRef(null);
 
   useEffect(() => {
@@ -38,7 +37,7 @@ const ViewProducts = () => {
     };
 
     fetchData();
-  }, []);
+  }, [productId, setProduct]);
 
   return (
     <>
@@ -54,9 +53,10 @@ const ViewProducts = () => {
                   onSwiper={(swiper) => (thumbsSwiper.current = swiper)}
                   slidesPerView={4}
                   freeMode={true}
+                  thumbs={{ Swiper: thumbsSwiper }}
                   watchSlidesProgress={true}
                   modules={[FreeMode, Navigation, Thumbs]}
-                  className="mySwiper "
+                  className="myswiper "
                   direction={"vertical"}
                 >
                   {product.images.map((image, index) => (
@@ -87,40 +87,48 @@ const ViewProducts = () => {
               </div>
 
               <div className="col-lg-6 col-md-12 col-sm-12 col-12 ">
-                <div className="d-flex flex-column justify-content-around m-4">
-                  <div>
-                    <h2 className="text-start">{product.name}</h2>
-                    <h5>
-                      {" "}
-                      price : <small>{product.price}</small>
-                    </h5>
+                <form action="addToPayment">
+                  <div className="d-flex flex-column justify-content-around m-4">
+                    <div>
+                      <h2 className="text-start">{product.name}</h2>
+                      <h5>
+                        {" "}
+                        price : <small>{product.price}</small>
+                      </h5>
+                    </div>
+                    <div>
+                      <p>{product.detail}</p>
+                    </div>
+                    <div className="">
+                      <h6>Size : </h6>
+                      {product.size.map((size) => (
+                        <option
+                          key={size.id}
+                          value={size.id}
+                          className="size ms-1 d-inline-block"
+                        >
+                          {size}
+                        </option>
+                      ))}
+                    </div>
+                    <div>
+                      <h6 className="">colors : </h6>
+                      {product.color.map((color) => (
+                        <option
+                          key={color.id}
+                          value={color.id}
+                          className="colors ms-1 d-inline-block"
+                          style={{
+                            backgroundColor: color,
+                          }}
+                        ></option>
+                      ))}
+                    </div>
                   </div>
-                  <div>
-                    <p>{product.detail}</p>
-                  </div>
-                  <div className="">
-                    <h6>Size : </h6>
-                    {product.size.map((size, index) => (
-                      <small key={index} className="size ms-1 d-inline-block">
-                        {size}
-                      </small>
-                    ))}
-                  </div>
-                  <div>
-                    <h6 className="">colors : </h6>
-                    {product.color.map((color, index) => (
-                      <p
-                        key={index}
-                        className="colors ms-1 d-inline-block"
-                        style={{
-                          backgroundColor: color,
-                        }}
-                      ></p>
-                    ))}
-                  </div>
-                </div>
+                </form>
               </div>
             </div>
+
             <div className="row my-2 text-center">
               <div className="d-grid gap-2 col-12 mx-auto">
                 <Link to={`/shop`} className="btn">

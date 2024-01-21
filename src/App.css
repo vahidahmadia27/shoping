@@ -171,3 +171,11 @@
 .watch-slides-progress img {
   height: 100px;
 }
+
+.myswiper .swiper-slide-thumb-active {
+  opacity: 1 !important;
+}
+
+.myswiper .watch-slides-progress {
+  opacity: 0.4;
+}
