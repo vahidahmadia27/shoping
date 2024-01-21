@@ -141,15 +141,6 @@
 .thumbs img {
   height: 400px;
 }
-watch-slides-progress {
-  height: 100vh;
-}
-
-.watch-slides-progress img {
-  height: 80px !important;
-  width: 100%;
-  object-fit: contain;
-}
 
 .colors {
   border-radius: 50%;
@@ -171,4 +162,12 @@ watch-slides-progress {
 .size:hover {
   background-color: wheat;
   color: black;
+}
+
+.swiper-slide {
+  height: fit-content;
+}
+
+.watch-slides-progress img {
+  height: 100px;
 }

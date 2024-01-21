@@ -10,6 +10,7 @@ import "swiper/css/navigation";
 import "swiper/css/thumbs";
 import "https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.js";
 import "../assets/style/swiper.css";
+import "swiper/react";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 import { FreeMode, Navigation, Thumbs } from "swiper/modules";
@@ -23,7 +24,8 @@ const ViewProducts = () => {
   const urlProduct = pathPieces.slice(1, 3).join(">");
 
   const { productId } = useParams();
-  const { thumbsSwiper, setThumbsSwiper } = useState(null);
+  // const { thumbsSwiper, setThumbsSwiper } = useRef(null);
+  const thumbsSwiper = useRef(null);
 
   useEffect(() => {
     const fetchData = async () => {
@@ -49,16 +51,19 @@ const ViewProducts = () => {
             <div className="row align-items-center">
               <div className="images-slider col-lg-2 col-md-6 col-sm-12  p-1">
                 <Swiper
-                  onSwiper={setThumbsSwiper}
+                  onSwiper={(swiper) => (thumbsSwiper.current = swiper)}
                   slidesPerView={4}
-                  direction="vertical"
                   freeMode={true}
                   watchSlidesProgress={true}
                   modules={[FreeMode, Navigation, Thumbs]}
-                  className="mySwiper"
+                  className="mySwiper "
+                  direction={"vertical"}
                 >
                   {product.images.map((image, index) => (
-                    <SwiperSlide className="watch-slides-progress" key={index}>
+                    <SwiperSlide
+                      className="watch-slides-progress p-0 m-0 "
+                      key={index}
+                    >
                       <img src={image} alt={`Product ${index + 1}`} />
                     </SwiperSlide>
                   ))}
@@ -69,7 +74,7 @@ const ViewProducts = () => {
                 <Swiper
                   spaceBetween={10}
                   navigation={true}
-                  thumbs={{ swiper: thumbsSwiper }}
+                  thumbs={{ swiper: thumbsSwiper.current }}
                   modules={[FreeMode, Navigation, Thumbs]}
                   className="mySwiper2"
                 >
