@@ -1,5 +1,5 @@
 import { Navbar, ViewProducts } from "./components/index";
-import { Routes, Route, Navigate, useNavigate } from "react-router-dom";
+import { Routes, Route, Navigate } from "react-router-dom";
 import { AboutUs, Blogs, Home, Shop } from "./pages/index";
 import "/node_modules/bootstrap/dist/css/bootstrap.css";
 import { ContextApp } from "./contexts/ContextApp";

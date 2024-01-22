@@ -13,6 +13,7 @@ const Products = ({ product }) => {
           <div className="text-product col-12 p-1">
             <h5>{product.name}</h5>
             <small className="product-detail">{product.detail}</small>
+
             <div className="d-flex justify-content-around align-items-center mt-2">
               <small>
                 <h5 className="d-inline">price : </h5> ${product.price}
