@@ -8,10 +8,10 @@ import "./App.css";
 import { useState, useEffect } from "react";
 
 const App = () => {
-  const [products, setProducts] = useState({});
+  const [products, setProducts] = useState([]);
   const [product, setProduct] = useState({});
-  const [loading, setloading] = useState(false);
-  const [groups, setGroups] = useState([]);
+  // const [loading, setloading] = useState(false);
+  // const [groups, setGroups] = useState([]);
 
   useEffect(() => {
     const fetchData = async () => {
@@ -25,7 +25,6 @@ const App = () => {
     fetchData();
   }, []);
 
-  const navigate = useNavigate();
   return (
     <div className="container-fluid">
       <ContextApp.Provider

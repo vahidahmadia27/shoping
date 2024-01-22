@@ -170,12 +170,22 @@
 
 .watch-slides-progress img {
   height: 100px;
+  cursor: pointer;
 }
 
 .myswiper .swiper-slide-thumb-active {
   opacity: 1 !important;
+  filter: drop-shadow(5px 2px 2px rgb(4, 247, 44));
 }
 
 .myswiper .watch-slides-progress {
   opacity: 0.4;
+}
+
+.header-page {
+  background-image: url(assets/images/shoppage.png);
+  height: 45vh;
+  background-position: bottom;
+  background-size: cover;
+  text-align: center;
 }
