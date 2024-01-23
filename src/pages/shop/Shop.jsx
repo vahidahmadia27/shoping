@@ -21,6 +21,7 @@ const Shop = () => {
     (currentPage - 1) * itemsPerPage,
     currentPage * itemsPerPage
   );
+  console.log(currentPage, filteredProducts.length, products.length);
 
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -78,12 +79,14 @@ const Shop = () => {
           <p>No products match the selected filter.</p>
         )}
       </div>
-      <Pagination
-        current={currentPage}
-        total={products.length}
-        pageSize={itemsPerPage}
-        onChange={onPageChange}
-      />
+      <div className="row text-center m-3">
+        <Pagination
+          current={currentPage}
+          total={products.length}
+          pageSize={itemsPerPage}
+          onChange={onPageChange}
+        />
+      </div>
     </div>
   );
 };

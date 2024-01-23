@@ -1,4 +1,4 @@
-import { Header } from "../../components";
+import { BestProducts, Header } from "../../components";
 import Groups from "../../components/Groups";
 import { useContext } from "react";
 import { ContextApp } from "../../contexts/ContextApp";
@@ -24,6 +24,16 @@ const Home = () => {
             Show More
           </Link>
         </div>
+      </div>
+      <div className="row mt-3">
+        <div className="col-6 text-start">
+          <h4 className="">5+Beautiful rooms inspiration</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa,
+            reiciendis.
+          </p>
+        </div>
+        <BestProducts products={products} />
       </div>
     </div>
   );
