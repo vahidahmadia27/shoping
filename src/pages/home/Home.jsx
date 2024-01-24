@@ -19,21 +19,23 @@ const Home = () => {
           ? products.slice(0, 8).map((l) => <Products product={l} key={l.id} />)
           : null}
 
-        <div className="text-center mt-3">
+        <div className="text-center mt-4">
           <Link className="text-center d-inline  btn-preview" to={"/shop"}>
             Show More
           </Link>
         </div>
       </div>
-      <div className="row mt-3">
-        <div className="col-6 text-start">
+      <div className="row mt-5 align-items-center">
+        <div className="col-4 text-start">
           <h4 className="">5+Beautiful rooms inspiration</h4>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa,
             reiciendis.
           </p>
         </div>
-        <BestProducts products={products} />
+        <div className="col-8 ">
+          <BestProducts products={products} />
+        </div>
       </div>
     </div>
   );

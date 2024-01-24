@@ -92,6 +92,7 @@
 /* product */
 
 .product {
+  position: relative;
   border-radius: 12px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
@@ -113,6 +114,8 @@
   border-radius: 8px;
   color: black;
   font-weight: bold;
+  display: block;
+  text-align: center;
   padding: 3.5px 8px;
   text-decoration: none;
   color: white;
@@ -188,4 +191,36 @@
   background-position: bottom;
   background-size: cover;
   text-align: center;
+}
+
+.best-img-product {
+  object-fit: contain;
+  width: 100%;
+  height: 350px;
+}
+
+.btn-see {
+  position: absolute;
+  top: 60%;
+  opacity: 0.5;
+  left: 15%;
+  right: 10%;
+
+  width: fit-content;
+}
+.btn-see:hover {
+  opacity: 1;
+  color: white;
+  background-color: firebrick;
+}
+
+.discount-product {
+  position: absolute;
+  top: 5%;
+  color: white;
+  opacity: 0.8;
+  right: 10%;
+  background-color: green;
+  padding: 8px;
+  border-radius: 50%;
 }

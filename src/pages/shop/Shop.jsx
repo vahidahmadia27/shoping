@@ -1,4 +1,4 @@
-import { useContext, useEffect, useState } from "react";
+import React, { useContext, useEffect, useState } from "react";
 import { ContextApp } from "../../contexts/ContextApp";
 import { Products, HeaderPage } from "../../components/index";
 import { useLocation } from "react-router-dom";
@@ -12,7 +12,10 @@ const Shop = () => {
   const urlPath = location.pathname;
   const [sortOption, setSortOption] = useState("default");
   const [currentPage, setCurrentPage] = useState(1);
+  const [displayedProductsCount, setDisplayedProductsCount] = useState(0);
+
   const itemsPerPage = 12;
+
   const onPageChange = (page) => {
     setCurrentPage(page);
   };
@@ -21,11 +24,6 @@ const Shop = () => {
     (currentPage - 1) * itemsPerPage,
     currentPage * itemsPerPage
   );
-  console.log(currentPage, filteredProducts.length, products.length);
-
-  useEffect(() => {
-    window.scrollTo(0, 0);
-  }, [filteredProducts]);
 
   const sortedProducts = () => {
     switch (sortOption) {
@@ -39,9 +37,15 @@ const Shop = () => {
         return filteredProducts;
     }
   };
+
   const handleSortOptionChange = (event) => {
     setSortOption(event.target.value);
   };
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+    setDisplayedProductsCount(sortedProducts().length);
+  }, [filteredProducts, sortOption]);
 
   return (
     <div>
@@ -51,6 +55,10 @@ const Shop = () => {
       <div className="row">
         <div className="row text-center">
           <div>
+            <p>
+              Showing {displayedProductsCount} of {products.length} products
+            </p>
+
             <select
               name="sort"
               onChange={handleSortOptionChange}
@@ -71,7 +79,7 @@ const Shop = () => {
             </select>
           </div>
         </div>
-        {sortedProducts().length > 0 ? (
+        {displayedProductsCount > 0 ? (
           sortedProducts().map((product, index) => (
             <Products product={product} key={index} />
           ))
@@ -90,4 +98,5 @@ const Shop = () => {
     </div>
   );
 };
+
 export default Shop;

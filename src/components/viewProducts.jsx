@@ -18,7 +18,11 @@ import { FreeMode, Navigation, Thumbs } from "swiper/modules";
 const ViewProducts = () => {
   const { product, setProduct } = useContext(ContextApp);
   const location = useLocation();
+  const hasDiscount = product.discount > 0;
 
+  const discountedPrice = hasDiscount
+    ? product.price - (product.price * product.discount) / 100
+    : product.price;
   const pathPieces = location.pathname.split("/");
 
   const urlProduct = pathPieces.slice(1, 3).join(">");
@@ -92,8 +96,27 @@ const ViewProducts = () => {
                     <div>
                       <h2 className="text-start">{product.name}</h2>
                       <h5>
-                        {" "}
-                        price : <small>{product.price}</small>
+                        <small>
+                          <h5 className="d-inline">قیمت:</h5>{" "}
+                          {hasDiscount ? (
+                            <>
+                              <span
+                                className="original-price"
+                                style={{ textDecoration: "line-through" }}
+                              >
+                                ${product.price.toFixed(2)}
+                              </span>
+                              <span
+                                className="discounted-price"
+                                style={{ fontWeight: "bold" }}
+                              >
+                                ${discountedPrice.toFixed(2)}
+                              </span>
+                            </>
+                          ) : (
+                            `$${product.price.toFixed(2)}`
+                          )}
+                        </small>
                       </h5>
                     </div>
                     <div>
