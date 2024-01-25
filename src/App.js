@@ -1,4 +1,4 @@
-import { Navbar, ViewProducts } from "./components/index";
+import { Login, Navbar, ViewProducts } from "./components/index";
 import { Routes, Route, Navigate } from "react-router-dom";
 import { AboutUs, Blogs, Home, Shop } from "./pages/index";
 import "/node_modules/bootstrap/dist/css/bootstrap.css";
@@ -32,6 +32,7 @@ const App = () => {
       >
         <Navbar />
         <Routes>
+          <Route path="/Login" element={<Login to="/Login" />} />
           <Route path="/" element={<Navigate to="/home" />} />
           <Route path="/Home" element={<Home to="/home" />} />
           <Route path="/shop" element={<Shop to="/shop" />} />

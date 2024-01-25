@@ -66,6 +66,15 @@ const Navbar = () => {
               blog
             </NavLink>
           </li>
+          <ul className="ms-auto">
+            <li>
+              <NavLink to={"./Login"}>login</NavLink>
+            </li>
+
+            <li>
+              <NavLink>sign in</NavLink>
+            </li>
+          </ul>
         </ul>
       </div>
     </nav>

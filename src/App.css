@@ -224,3 +224,13 @@
   padding: 8px;
   border-radius: 50%;
 }
+
+.login-img {
+  width: 100%;
+  object-fit: cover;
+  height: fit-content;
+}
+.card-login {
+  margin-top: 1rem;
+  border: 1px solid green;
+}
