@@ -4,8 +4,7 @@ import { Link } from "react-router-dom";
 
 const Login = () => {
   return (
-    <>
-      <h2 className="text-center">login / sign in </h2>
+    <div className="login">
       <div className="row card-login align-items-center">
         <div className="col-4 m-0 p-0">
           <form>
@@ -48,7 +47,7 @@ const Login = () => {
           <img src={imageLogin} className="login-img" alt="" />
         </div>
       </div>
-    </>
+    </div>
   );
 };
 
