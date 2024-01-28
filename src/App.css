@@ -265,3 +265,7 @@
 .card-login button:hover {
   opacity: 1;
 }
+
+.register-img {
+  border-radius: 12px;
+}

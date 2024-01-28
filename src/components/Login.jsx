@@ -1,20 +1,21 @@
 import React, { useState } from "react";
 import { useSpring, animated } from "react-spring";
 import imageLogin from "../assets/images/imgLogin.jpg";
+import register from "../assets/images/register.jpg";
+
 import Logo from "../assets/icon/logo.svg";
 import { Link } from "react-router-dom";
 
 const Login = () => {
   const [isSignInVisible, setSignInVisible] = useState(true);
-
   const signInProps = useSpring({
     opacity: isSignInVisible ? 1 : 0,
-    transform: isSignInVisible ? "translateX(0%)" : "translateX(-100%)",
+    config: { duration: 500 }, // تنظیم مدت زمان انیمیشن به میلی‌ثانیه
   });
 
   const loginProps = useSpring({
     opacity: isSignInVisible ? 0 : 1,
-    transform: isSignInVisible ? "translateX(100%)" : "translateX(0%)",
+    config: { duration: 500 },
   });
 
   return (
@@ -82,37 +83,49 @@ const Login = () => {
                   <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Inventore, quidem?
-                    <Link onClick={() => setSignInVisible(true)}>Sign ing</Link>
+                    <Link onClick={() => setSignInVisible(true)}>login</Link>
                   </p>
                 </div>
 
                 <div className="">
-                  <label htmlFor="UseName">UserName</label>
+                  <label htmlFor="UseName">email</label>
+                  <br />
+                  <input type="email" />
+                </div>
+                <div className="">
+                  <label htmlFor="name">name</label>
                   <br />
                   <input type="text" />
                 </div>
                 <div className="">
-                  <label htmlFor="Password">Password</label>
+                  <label htmlFor="family name">family name</label>
                   <br />
                   <input type="text" />
                 </div>
-                <div className="text-center mt-2">
-                  <Link>forget Password ?</Link>
+                <div className="">
+                  <label htmlFor="UseName">Password</label>
+                  <br />
+                  <input type="text" />
                 </div>
+                <div className="">
+                  <label htmlFor="Password">RepeatPassword</label>
+                  <br />
+                  <input type="text" />
+                </div>
+
                 <div className="text-center mt-2">
                   <button>submit</button>
                 </div>
               </div>
               <div className="text-center">
                 <p>
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                  Harum, veniam.
+                  <Link>roles</Link>
                 </p>
               </div>
             </form>
           </div>
           <div className="col-8 p-0 m-0">
-            <img src={imageLogin} className="login-img" alt="" />
+            <img src={register} className="login-img register-img " alt="" />
           </div>
         </div>
       </animated.div>
