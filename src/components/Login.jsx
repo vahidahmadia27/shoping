@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { useSpring, animated } from "react-spring";
 import imageLogin from "../assets/images/imgLogin.jpg";
 import register from "../assets/images/register.jpg";
-
+import Users from "./Users";
 import Logo from "../assets/icon/logo.svg";
 import { Link } from "react-router-dom";
 

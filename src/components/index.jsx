@@ -1,4 +1,5 @@
 export { default as Navbar } from "./Navbar";
+export { default as Footer } from "./Footer";
 export { default as Header } from "./Header";
 export { default as ViewProducts } from "./viewProducts";
 export { default as Products } from "./Products";

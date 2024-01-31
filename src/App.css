@@ -269,3 +269,53 @@
 .register-img {
   border-radius: 12px;
 }
+
+.contact-us-footer {
+  background: rgb(145, 7, 0);
+  background: linear-gradient(
+    0deg,
+    rgba(145, 7, 0, 1) 25%,
+    rgba(103, 3, 3, 1) 95%,
+    rgba(124, 16, 14, 1) 99%
+  );
+  height: 30vh;
+  width: 100%;
+
+  color: white;
+}
+
+.text-title-footer {
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  text-shadow: 0 0 3px #ffffffc4, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff,
+    0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff;
+  text-align: center;
+}
+
+.follow-us img {
+  background-color: rgba(201, 184, 184, 0.356);
+  height: 50px;
+  width: 50px;
+  border-radius: 12px;
+}
+
+.link-footer {
+  background-color: rgba(221, 105, 105, 0.63);
+}
+
+.link-footer ul li {
+  list-style-type: none;
+}
+
+.link-footer a {
+  text-decoration: none;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: 500;
+  color: black;
+  transition: all 0.2s ease;
+}
+
+.link-footer a:hover {
+  color: white;
+}

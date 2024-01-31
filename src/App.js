@@ -1,6 +1,7 @@
-import { Login, Navbar, ViewProducts } from "./components/index";
-import { Routes, Route, Navigate } from "react-router-dom";
-import { AboutUs, Blogs, Home, Shop } from "./pages/index";
+import { Footer, Login, Navbar, ViewProducts } from "./components/index";
+import { Routes, Route, Navigate, useLocation } from "react-router-dom";
+import { AboutUs, Blogs, ContactUs, Home, Shop } from "./pages/index";
+
 import "/node_modules/bootstrap/dist/css/bootstrap.css";
 import { ContextApp } from "./contexts/ContextApp";
 import { getAllProducts } from "./services/service";
@@ -10,6 +11,8 @@ import { useState, useEffect } from "react";
 const App = () => {
   const [products, setProducts] = useState([]);
   const [product, setProduct] = useState({});
+  const location = useLocation();
+  const isLogin = location.pathname === "/Login";
   // const [loading, setloading] = useState(false);
   // const [groups, setGroups] = useState([]);
 
@@ -39,7 +42,9 @@ const App = () => {
           <Route path="/shop/products/:productId" element={<ViewProducts />} />
           <Route path="/aboutUs" element={<AboutUs to="/aboutUs" />} />
           <Route path="/blogs" element={<Blogs to="/blogs" />} />
+          <Route path="/contactUs" element={<ContactUs to="/contactUs" />} />
         </Routes>
+        {!isLogin && <Footer />}
       </ContextApp.Provider>
     </div>
   );
