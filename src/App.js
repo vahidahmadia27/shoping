@@ -11,6 +11,7 @@ import { useState, useEffect } from "react";
 const App = () => {
   const [products, setProducts] = useState([]);
   const [product, setProduct] = useState({});
+  const [listCart , setListCart] = useState([]);
   const location = useLocation();
   const isLogin = location.pathname === "/Login";
   // const [loading, setloading] = useState(false);
@@ -31,7 +32,7 @@ const App = () => {
   return (
     <div className="container-fluid">
       <ContextApp.Provider
-        value={{ products, setProducts, product, setProduct }}
+        value={{ products, setProducts, product, setProduct ,listCart ,setListCart}}
       >
         <Navbar />
         <Routes>

@@ -8,4 +8,6 @@ export const ContextApp = createContext({
   product: {},
   setProduct: () => {},
   group: [],
+  listCart:[{}] , 
+  setListCart: () => {},
 });

@@ -1,7 +1,7 @@
 import { useParams, Link, useLocation } from "react-router-dom";
 import { useEffect, useRef } from "react";
 import { getProduct } from "../services/service";
-import { useContext } from "react";
+import { useContext , useState } from "react";
 import { ContextApp } from "../contexts/ContextApp";
 
 import "swiper/css";
@@ -17,8 +17,13 @@ import { FreeMode, Navigation, Thumbs } from "swiper/modules";
 
 const ViewProducts = () => {
   const { product, setProduct } = useContext(ContextApp);
+  const { listCart, setListCart } = useContext(ContextApp);
   const location = useLocation();
   const hasDiscount = product.discount > 0;
+  const [selectedSize, setSelectedSize] = useState("");
+  const [selectedColor, setSelectedColor] = useState(""); 
+
+
 
   const discountedPrice = hasDiscount
     ? product.price - (product.price * product.discount) / 100
@@ -29,10 +34,17 @@ const ViewProducts = () => {
 
   const { productId } = useParams();
   const thumbsSwiper = useRef(null);
+  const handleSizeChange = (size) => {
+    setSelectedSize(size);
+  };
 
+  const handleColorChange = (color) => {
+    setSelectedColor(color);
+  };
   useEffect(() => {
     const fetchData = async () => {
       try {
+        window.scrollTo(0, 0);
         const { data: productData } = await getProduct(productId);
         setProduct(productData);
       } catch (err) {
@@ -41,7 +53,24 @@ const ViewProducts = () => {
     };
 
     fetchData();
-  }, [productId, setProduct]);
+  }, [productId, setProduct ,setListCart]);
+
+
+  const  addToCart = async()=>{
+    const newProduct ={
+      name : product.name , 
+      price : product.price ,
+      color: selectedColor ,
+      size : selectedSize
+
+    }
+
+    setListCart((prevSelectedProducts) => {
+      const updatedListCart = [...prevSelectedProducts, newProduct];
+      return updatedListCart;
+    });
+    console.log(listCart);
+  }
 
   return (
     <>
@@ -91,10 +120,11 @@ const ViewProducts = () => {
               </div>
 
               <div className="col-lg-6 col-md-12 col-sm-12 col-12 ">
-                <form action="addToPayment">
+                <form onSubmit={(e) => { e.preventDefault(); addToCart(); }}>
                   <div className="d-flex flex-column justify-content-around m-4">
                     <div>
                       <h2 className="text-start">{product.name}</h2>
+                      <small className="text-start">{product.id}</small>
                       <h5>
                         <small>
                           <h5 className="d-inline">قیمت:</h5>{" "}
@@ -123,31 +153,46 @@ const ViewProducts = () => {
                       <p>{product.detail}</p>
                     </div>
                     <div className="">
-                      <h6>Size : </h6>
-                      {product.size.map((size) => (
-                        <option
-                          key={size.id}
-                          value={size.id}
-                          className="size ms-1 d-inline-block"
-                        >
-                          {size}
-                        </option>
-                      ))}
-                    </div>
-                    <div>
-                      <h6 className="">colors : </h6>
-                      {product.color.map((color) => (
-                        <option
-                          key={color.id}
-                          value={color.id}
-                          className="colors ms-1 d-inline-block"
-                          style={{
-                            backgroundColor: color,
-                          }}
-                        ></option>
-                      ))}
+                    <h6>Size : </h6>
+                  {product.size.map((size) => (
+                    <label key={size.id}  className="ms-1 d-inline-block">
+                      <input
+                        type="radio"
+                        
+                        value={size}
+                        checked={selectedSize === size}
+                        onChange={() => handleSizeChange(size)}
+                      />
+                      {size}
+                    </label>
+                  ))}
+                </div>
+                <div className="">
+                  <h6>Colors : </h6>
+                  {product.color.map((color) => (
+                    <label
+                      key={color.id}
+                      className="ms-1 d-inline-block"
+                     
+                      style={{ backgroundColor: color, padding: "5px", borderRadius: "5px" }}
+                    >
+                      <input
+                        type="radio"
+                      
+                        value={color}
+                        checked={selectedColor === color}
+                        onChange={() => handleColorChange(color)}
+                      />
+                    </label>
+                  ))}
                     </div>
                   </div>
+                  <div className="col-12">
+                  <button type="submit" className="w-100 btn-preview">
+                  Add to cart
+                  </button>
+                  </div>
+                  
                 </form>
               </div>
             </div>
