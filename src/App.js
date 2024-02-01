@@ -4,7 +4,7 @@ import { AboutUs, Blogs, ContactUs, Home, Shop } from "./pages/index";
 
 import "/node_modules/bootstrap/dist/css/bootstrap.css";
 import { ContextApp } from "./contexts/ContextApp";
-import { getAllProducts } from "./services/service";
+import { getAllBlog, getAllProducts } from "./services/service";
 import "./App.css";
 import { useState, useEffect } from "react";
 
@@ -12,6 +12,7 @@ const App = () => {
   const [products, setProducts] = useState([]);
   const [product, setProduct] = useState({});
   const [listCart , setListCart] = useState([]);
+  const [blog , setBlog] = useState([]);
   const location = useLocation();
   const isLogin = location.pathname === "/Login";
   // const [loading, setloading] = useState(false);
@@ -21,6 +22,8 @@ const App = () => {
     const fetchData = async () => {
       try {
         const { data: products } = await getAllProducts();
+        const {data :blogs} = await getAllBlog();
+        setBlog(blogs)
         setProducts(products);
       } catch (err) {
         console.log(err);
@@ -28,11 +31,12 @@ const App = () => {
     };
     fetchData();
   }, []);
+ 
 
   return (
     <div className="container-fluid">
       <ContextApp.Provider
-        value={{ products, setProducts, product, setProduct ,listCart ,setListCart}}
+        value={{ products, setProducts, product, setProduct ,listCart ,setListCart , blog , setBlog }}
       >
         <Navbar />
         <Routes>

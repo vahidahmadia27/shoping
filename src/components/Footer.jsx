@@ -68,22 +68,22 @@ const Footer = () => {
         <hr />
         <div className="logo-div">
           <div className="d-flex justify-content-around">
-            <Link>
+            <Link  to={"https://getbootstrap.com/"} target="_blank">
               <img src={Bootstrap} alt="" />
             </Link>
-            <Link>
+            <Link to={"https://html.com/"}  target="_blank" >
               <img src={Html} alt="" />
             </Link>
-            <Link>
+            <Link to={"https://nodejs.org/en/"}  target="_blank" >
               <img src={Nodejs} alt="" />
             </Link>
-            <Link>
+            <Link to={"https://react.dev/"}   target="_blank">
               <img src={ReactImage} alt="" />
             </Link>
-            <Link>
+            <Link to={"https://angular.io/"}  target="_blank">
               <img src={Angular} alt="" />
             </Link>
-            <Link>
+            <Link to={"https://html.com/"}   target="_blank">
               <img src={Css} alt="" />
             </Link>
           </div>

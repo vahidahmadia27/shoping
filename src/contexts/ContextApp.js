@@ -10,4 +10,6 @@ export const ContextApp = createContext({
   group: [],
   listCart:[{}] , 
   setListCart: () => {},
+  blog:[],
+  setBlog: () => {},
 });
