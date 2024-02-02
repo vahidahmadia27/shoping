@@ -3,11 +3,15 @@ import { ContextApp } from "../../contexts/ContextApp";
 
 const Blogs = () => {
   const {blog , setBlog} = useContext(ContextApp)
-  console.log(blog);
-  return (
   
+
+  return (
     <div>
-      <h2> </h2>
+ <div>
+  {blog.map((data)=>(
+    <h2>{data.title}</h2>
+  ))}
+ </div>
     </div>
   );
 };

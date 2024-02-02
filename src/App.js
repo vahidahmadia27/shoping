@@ -23,7 +23,7 @@ const App = () => {
       try {
         const { data: products } = await getAllProducts();
         const {data :blogs} = await getAllBlog();
-        setBlog(blogs)
+        setBlog(blogs.data)
         setProducts(products);
       } catch (err) {
         console.log(err);
