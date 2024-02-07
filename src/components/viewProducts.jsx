@@ -67,9 +67,10 @@ const ViewProducts = () => {
 
     setListCart((prevSelectedProducts) => {
       const updatedListCart = [...prevSelectedProducts, newProduct];
+      
       return updatedListCart;
     });
-    console.log(listCart);
+  
   }
 
   return (

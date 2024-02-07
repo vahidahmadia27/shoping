@@ -2,6 +2,10 @@ import { NavLink } from "react-router-dom";
 import logo from "../assets/icon/logo.svg";
 
 const Navbar = () => {
+
+
+
+
   return (
     <nav className="nav row  align-items-center p-0 m-0">
       <div className="nav-icon col-3  text-center">
@@ -9,7 +13,7 @@ const Navbar = () => {
         <h5 className="d-inline">Furniro</h5>
       </div>
       <div className="col-8 ">
-        <ul className="centered-list d-flex d-md-flex d-sm-none d-none">
+        <ul id="menu" className="centered-list d-flex d-md-flex d-sm-none d-none">
           <li className="">
             <NavLink
               style={({ isActive }) => {
