@@ -9,7 +9,7 @@ const Blogs = () => {
     <div>
  <div>
   {blog.map((data)=>(
- <img src={data.image} alt="" />
+    <h1>{data.title}</h1>
   ))}
  </div>
     </div>

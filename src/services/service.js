@@ -1,15 +1,12 @@
 import axios from "axios";
 
 const SERVER_URL_LOCALHOST = "http://localhost:2000";
-const SERVER_URL_TAJI = "https://base-api-mr-tag2.cyclic.app/api/shoz"
+const SERVER_URL_TAJI = "https://base-api-mr-tag2.cyclic.app/api/shoz";
 
 export const getAllBlog = () => {
   const url = `${SERVER_URL_TAJI}/blogs/client/get-all`;
   return axios.get(url);
 };
-
-
-
 
 export const getAllProducts = () => {
   const url = `${SERVER_URL_LOCALHOST}/products`;
