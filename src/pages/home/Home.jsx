@@ -7,6 +7,7 @@ import { Link } from "react-router-dom";
 
 const Home = () => {
   const { products } = useContext(ContextApp);
+  console.log(products);
   return (
     <div className="container-fluid p-0 m-0">
       <Header />

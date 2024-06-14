@@ -24,8 +24,8 @@ const App = () => {
     const fetchData = async () => {
       try {
         const { data: fetchedProducts } = await getAllProducts();
-        const { data: fetchedBlogs } = await getAllBlog();
-        setBlog(fetchedBlogs.data);
+        // const { data: fetchedBlogs } = await getAllBlog();
+        // setBlog(fetchedBlogs.data);
         setProducts(fetchedProducts);
       } catch (err) {
         console.log(err);

@@ -1,6 +1,5 @@
 {
   "products": [
-  
     {
       "id": "e36d",
       "name": "8 seater sofa",
@@ -19,16 +18,8 @@
       "comment": "no comment",
       "like": 10,
       "groups": "1",
-      "color":[
-        "green",
-        "black",
-        "orange"
-      ],
-      "size":[
-        "lg",
-        "md",
-        "sm"
-      ]
+      "color": ["green", "black", "orange"],
+      "size": ["lg", "md", "sm"]
     },
     {
       "id": "dd00",
@@ -38,24 +29,17 @@
       "star": 4,
       "detail": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
       "discount": 10,
-     "images": [
+      "images": [
         "https://dkstatics-public.digikala.com/digikala-products/19aebf710a10375f0505a2367e5b2a30c67408e1_1666883742.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90",
         "https://dkstatics-public.digikala.com/digikala-products/acbe0adde90170fd0fea36de8c0bbb370f9c2a9d_1666883746.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/quality,q_90",
         "https://dkstatics-public.digikala.com/digikala-products/095dbe0a823a16c4d41eb96f62249e404651b1b8_1666883765.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/quality,q_90",
         "https://dkstatics-public.digikala.com/digikala-products/1ba8ddf53a5d753bbc67ad90679793482d5ef7e3_1666883770.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/quality,q_90"
-      ],      "comment": "no comment",
+      ],
+      "comment": "no comment",
       "like": 10,
       "groups": "1",
-      "color":[
-        "green",
-        "black",
-        "orange"
-      ],
-        "size":[
-        "lg",
-        "md",
-        "sm"
-      ]
+      "color": ["green", "black", "orange"],
+      "size": ["lg", "md", "sm"]
     },
     {
       "id": "81d6",
@@ -65,25 +49,17 @@
       "star": 4,
       "detail": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
       "discount": 10,
-     "images": [
+      "images": [
         "https://dkstatics-public.digikala.com/digikala-products/b5633a744d8ff113707dc2ed75698b284e451650_1687072510.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90",
         "https://dkstatics-public.digikala.com/digikala-products/9e81380805a68f100f82ba1fed20b344ad92d86c_1687072796.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/quality,q_90",
         "https://dkstatics-public.digikala.com/digikala-products/75c2ff059b668731e92a4e11dda2a547a3ec6b7b_1687072823.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/quality,q_90",
         "https://dkstatics-public.digikala.com/digikala-products/0db1f2d61d38b6fbd5627f900b83f1c4531c8b47_1687073041.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/quality,q_90"
-      ],      "comment": "no comment",
-      "like": 10,
-      "groups": "1"
-      ,
-      "color":[
-        "green",
-        "black",
-        "orange"
       ],
-      "size":[
-      "lg",
-      "md",
-      "sm"
-    ]
+      "comment": "no comment",
+      "like": 10,
+      "groups": "1",
+      "color": ["green", "black", "orange"],
+      "size": ["lg", "md", "sm"]
     },
     {
       "id": "fdfc",
@@ -93,28 +69,19 @@
       "star": 4,
       "detail": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
       "discount": 10,
-     "images": [
+      "images": [
         "https://dkstatics-public.digikala.com/digikala-products/6f81a7b38f0c16b8ae44090a16299518f2295326_1675544876.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90",
         "https://dkstatics-public.digikala.com/digikala-products/5da781edf6fe7df1ac57629dfe6b6c848025346f_1675196644.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/quality,q_90",
         "https://dkstatics-public.digikala.com/digikala-products/9c8c4b9c2aeae19e87848db3ebd1faa8c9814be6_1675196736.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/quality,q_90",
         "https://dkstatics-public.digikala.com/digikala-products/0202ff767459a769ea32a7b8e1cad98027b4c6d0_1675196750.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/quality,q_90"
-      ],      "comment": "no comment",
-      "like": 10,
-      "groups": "2"
-      ,
-      "color":[
-        "green",
-        "black",
-        "orange"
       ],
-      "size":[
-      "lg",
-      "md",
-      "sm"
-    ]
-    }
+      "comment": "no comment",
+      "like": 10,
+      "groups": "2",
+      "color": ["green", "black", "orange"],
+      "size": ["lg", "md", "sm"]
+    },
 
-    ,
     {
       "id": "fdfc",
       "name": "8 seater sofa",
@@ -123,25 +90,17 @@
       "star": 4,
       "detail": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
       "discount": 10,
-     "images": [
+      "images": [
         "https://dkstatics-public.digikala.com/digikala-products/6f81a7b38f0c16b8ae44090a16299518f2295326_1675544876.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90",
         "https://dkstatics-public.digikala.com/digikala-products/5da781edf6fe7df1ac57629dfe6b6c848025346f_1675196644.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/quality,q_90",
         "https://dkstatics-public.digikala.com/digikala-products/9c8c4b9c2aeae19e87848db3ebd1faa8c9814be6_1675196736.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/quality,q_90",
         "https://dkstatics-public.digikala.com/digikala-products/0202ff767459a769ea32a7b8e1cad98027b4c6d0_1675196750.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/quality,q_90"
-      ],      "comment": "no comment",
-      "like": 10,
-      "groups": "2"
-      ,
-      "color":[
-        "green",
-        "black",
-        "orange"
       ],
-      "size":[
-      "lg",
-      "md",
-      "sm"
-    ]
+      "comment": "no comment",
+      "like": 10,
+      "groups": "2",
+      "color": ["green", "black", "orange"],
+      "size": ["lg", "md", "sm"]
     },
     {
       "id": "81d6",
@@ -151,26 +110,19 @@
       "star": 4,
       "detail": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
       "discount": 10,
-     "images": [
+      "images": [
         "https://dkstatics-public.digikala.com/digikala-products/b5633a744d8ff113707dc2ed75698b284e451650_1687072510.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90",
         "https://dkstatics-public.digikala.com/digikala-products/9e81380805a68f100f82ba1fed20b344ad92d86c_1687072796.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/quality,q_90",
         "https://dkstatics-public.digikala.com/digikala-products/75c2ff059b668731e92a4e11dda2a547a3ec6b7b_1687072823.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/quality,q_90",
         "https://dkstatics-public.digikala.com/digikala-products/0db1f2d61d38b6fbd5627f900b83f1c4531c8b47_1687073041.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/quality,q_90"
-      ],      "comment": "no comment",
-      "like": 10,
-      "groups": "1"
-      ,
-      "color":[
-        "green",
-        "black",
-        "orange"
       ],
-      "size":[
-      "lg",
-      "md",
-      "sm"
-    ]
-    },{
+      "comment": "no comment",
+      "like": 10,
+      "groups": "1",
+      "color": ["green", "black", "orange"],
+      "size": ["lg", "md", "sm"]
+    },
+    {
       "id": "e36d",
       "name": "8 seater sofa",
       "price": 2000,
@@ -187,47 +139,29 @@
 
       "comment": "no comment",
       "like": 10,
-      "groups": "1"
-      ,
-      "color":[
-        "green",
-        "black",
-        "orange"
-      ],
-      "size":[
-      "lg",
-      "md",
-      "sm"
-    ]
-    }
-    ,{
+      "groups": "1",
+      "color": ["green", "black", "orange"],
+      "size": ["lg", "md", "sm"]
+    },
+    {
       "id": "dd00",
       "name": "8 seater sofa",
       "price": 2000,
       "category": "test1",
       "star": 4,
       "detail": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-     "images": [
+      "images": [
         "https://dkstatics-public.digikala.com/digikala-products/19aebf710a10375f0505a2367e5b2a30c67408e1_1666883742.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90",
         "https://dkstatics-public.digikala.com/digikala-products/acbe0adde90170fd0fea36de8c0bbb370f9c2a9d_1666883746.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/quality,q_90",
         "https://dkstatics-public.digikala.com/digikala-products/095dbe0a823a16c4d41eb96f62249e404651b1b8_1666883765.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/quality,q_90",
         "https://dkstatics-public.digikala.com/digikala-products/1ba8ddf53a5d753bbc67ad90679793482d5ef7e3_1666883770.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/quality,q_90"
-      ],      "comment": "no comment",
-      "like": 10,
-      "groups": "1"
-      ,
-      "color":[
-        "green",
-        "black",
-        "orange"
       ],
-      "size":[
-      "lg",
-      "md",
-      "sm"
-    ]
-    }
-    ,
+      "comment": "no comment",
+      "like": 10,
+      "groups": "1",
+      "color": ["green", "black", "orange"],
+      "size": ["lg", "md", "sm"]
+    },
     {
       "id": "fdfc",
       "name": "8 seater sofa",
@@ -236,25 +170,17 @@
       "star": 4,
       "detail": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
       "discount": 10,
-     "images": [
+      "images": [
         "https://dkstatics-public.digikala.com/digikala-products/6f81a7b38f0c16b8ae44090a16299518f2295326_1675544876.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90",
         "https://dkstatics-public.digikala.com/digikala-products/5da781edf6fe7df1ac57629dfe6b6c848025346f_1675196644.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/quality,q_90",
         "https://dkstatics-public.digikala.com/digikala-products/9c8c4b9c2aeae19e87848db3ebd1faa8c9814be6_1675196736.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/quality,q_90",
         "https://dkstatics-public.digikala.com/digikala-products/0202ff767459a769ea32a7b8e1cad98027b4c6d0_1675196750.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/quality,q_90"
-      ],      "comment": "no comment",
-      "like": 10,
-      "groups": "2"
-      ,
-      "color":[
-        "green",
-        "black",
-        "orange"
       ],
-      "size":[
-      "lg",
-      "md",
-      "sm"
-    ]
+      "comment": "no comment",
+      "like": 10,
+      "groups": "2",
+      "color": ["green", "black", "orange"],
+      "size": ["lg", "md", "sm"]
     },
     {
       "id": "81d6",
@@ -264,27 +190,20 @@
       "star": 4,
       "detail": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
       "discount": 10,
-     "images": [
+      "images": [
         "https://dkstatics-public.digikala.com/digikala-products/b5633a744d8ff113707dc2ed75698b284e451650_1687072510.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90",
         "https://dkstatics-public.digikala.com/digikala-products/9e81380805a68f100f82ba1fed20b344ad92d86c_1687072796.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/quality,q_90",
         "https://dkstatics-public.digikala.com/digikala-products/75c2ff059b668731e92a4e11dda2a547a3ec6b7b_1687072823.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/quality,q_90",
         "https://dkstatics-public.digikala.com/digikala-products/0db1f2d61d38b6fbd5627f900b83f1c4531c8b47_1687073041.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/quality,q_90"
-      ],      "comment": "no comment",
-      "like": 11111,
-      
-      "groups": "1"
-      ,
-      "color":[
-        "green",
-        "black",
-        "orange"
       ],
-      "size":[
-      "lg",
-      "md",
-      "sm"
-    ]
-    },{
+      "comment": "no comment",
+      "like": 11111,
+
+      "groups": "1",
+      "color": ["green", "black", "orange"],
+      "size": ["lg", "md", "sm"]
+    },
+    {
       "id": "e36d",
       "name": "8 seater sofa",
       "price": 2000,
@@ -301,74 +220,48 @@
 
       "comment": "no comment",
       "like": 18,
-      "groups": "1"
-      ,
-      "color":[
-        "green",
-        "black",
-        "orange"
-      ],
-      "size":[
-      "lg",
-      "md",
-      "sm"
-    ]
-    }
-    ,{
+      "groups": "1",
+      "color": ["green", "black", "orange"],
+      "size": ["lg", "md", "sm"]
+    },
+    {
       "id": "dd00",
       "name": "8 seater sofa",
       "price": 2000,
       "category": "test1",
       "star": 4,
       "detail": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-     "images": [
+      "images": [
         "https://dkstatics-public.digikala.com/digikala-products/19aebf710a10375f0505a2367e5b2a30c67408e1_1666883742.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90",
         "https://dkstatics-public.digikala.com/digikala-products/acbe0adde90170fd0fea36de8c0bbb370f9c2a9d_1666883746.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/quality,q_90",
         "https://dkstatics-public.digikala.com/digikala-products/095dbe0a823a16c4d41eb96f62249e404651b1b8_1666883765.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/quality,q_90",
         "https://dkstatics-public.digikala.com/digikala-products/1ba8ddf53a5d753bbc67ad90679793482d5ef7e3_1666883770.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/quality,q_90"
-      ],      "comment": "no comment",
+      ],
+      "comment": "no comment",
       "like": 13,
-      "groups": "1"
-      ,
-      "color":[
-        "green",
-        "black",
-        "orange"
-      ],
-      "size":[
-      "lg",
-      "md",
-      "sm"
-    ]
-    }
-    ,{
+      "groups": "1",
+      "color": ["green", "black", "orange"],
+      "size": ["lg", "md", "sm"]
+    },
+    {
       "id": "dd00",
       "name": "8 seater sofa",
       "price": 2000,
       "category": "test1",
       "star": 4,
       "detail": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-     "images": [
+      "images": [
         "https://dkstatics-public.digikala.com/digikala-products/19aebf710a10375f0505a2367e5b2a30c67408e1_1666883742.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90",
         "https://dkstatics-public.digikala.com/digikala-products/acbe0adde90170fd0fea36de8c0bbb370f9c2a9d_1666883746.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/quality,q_90",
         "https://dkstatics-public.digikala.com/digikala-products/095dbe0a823a16c4d41eb96f62249e404651b1b8_1666883765.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/quality,q_90",
         "https://dkstatics-public.digikala.com/digikala-products/1ba8ddf53a5d753bbc67ad90679793482d5ef7e3_1666883770.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/quality,q_90"
-      ],      "comment": "no comment",
-      "like": 12,
-      "groups": "1"
-      ,
-      "color":[
-        "green",
-        "black",
-        "orange"
       ],
-      "size":[
-      "lg",
-      "md",
-      "sm"
-    ]
-    }
-    ,
+      "comment": "no comment",
+      "like": 12,
+      "groups": "1",
+      "color": ["green", "black", "orange"],
+      "size": ["lg", "md", "sm"]
+    },
     {
       "id": "fdfc",
       "name": "8 seater sofa",
@@ -376,25 +269,17 @@
       "category": "test1",
       "star": 4,
       "detail": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-     "images": [
+      "images": [
         "https://dkstatics-public.digikala.com/digikala-products/6f81a7b38f0c16b8ae44090a16299518f2295326_1675544876.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90",
         "https://dkstatics-public.digikala.com/digikala-products/5da781edf6fe7df1ac57629dfe6b6c848025346f_1675196644.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/quality,q_90",
         "https://dkstatics-public.digikala.com/digikala-products/9c8c4b9c2aeae19e87848db3ebd1faa8c9814be6_1675196736.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/quality,q_90",
         "https://dkstatics-public.digikala.com/digikala-products/0202ff767459a769ea32a7b8e1cad98027b4c6d0_1675196750.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/quality,q_90"
-      ],      "comment": "no comment",
-      "like": 43,
-      "groups": "2"
-      ,
-      "color":[
-        "green",
-        "black",
-        "orange"
       ],
-      "size":[
-      "lg",
-      "md",
-      "sm"
-    ]
+      "comment": "no comment",
+      "like": 43,
+      "groups": "2",
+      "color": ["green", "black", "orange"],
+      "size": ["lg", "md", "sm"]
     },
     {
       "id": "81d6",
@@ -404,27 +289,20 @@
       "star": 4,
       "detail": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
       "discount": 10,
-     "images": [
+      "images": [
         "https://dkstatics-public.digikala.com/digikala-products/b5633a744d8ff113707dc2ed75698b284e451650_1687072510.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90",
         "https://dkstatics-public.digikala.com/digikala-products/9e81380805a68f100f82ba1fed20b344ad92d86c_1687072796.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/quality,q_90",
         "https://dkstatics-public.digikala.com/digikala-products/75c2ff059b668731e92a4e11dda2a547a3ec6b7b_1687072823.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/quality,q_90",
         "https://dkstatics-public.digikala.com/digikala-products/0db1f2d61d38b6fbd5627f900b83f1c4531c8b47_1687073041.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/quality,q_90"
-      ],      "comment": "no comment",
-      "like": 12,
-      
-      "groups": "1"
-      ,
-      "color":[
-        "green",
-        "black",
-        "orange"
       ],
-      "size":[
-      "lg",
-      "md",
-      "sm"
-    ]
-    },{
+      "comment": "no comment",
+      "like": 12,
+
+      "groups": "1",
+      "color": ["green", "black", "orange"],
+      "size": ["lg", "md", "sm"]
+    },
+    {
       "id": "e36d",
       "name": "8 seater sofa",
       "price": 2000,
@@ -441,20 +319,11 @@
 
       "comment": "no comment",
       "like": 11,
-      "groups": "1"
-      ,
-      "color":[
-        "green",
-        "black",
-        "orange"
-      ],
-      "size":[
-      "lg",
-      "md",
-      "sm"
-    ]
-    }
-    ,{
+      "groups": "1",
+      "color": ["green", "black", "orange"],
+      "size": ["lg", "md", "sm"]
+    },
+    {
       "id": "dd00",
       "name": "8 seater sofa",
       "price": 2000,
@@ -462,27 +331,19 @@
       "star": 4,
       "detail": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
       "discount": 10,
-     "images": [
+      "images": [
         "https://dkstatics-public.digikala.com/digikala-products/19aebf710a10375f0505a2367e5b2a30c67408e1_1666883742.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90",
         "https://dkstatics-public.digikala.com/digikala-products/acbe0adde90170fd0fea36de8c0bbb370f9c2a9d_1666883746.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/quality,q_90",
         "https://dkstatics-public.digikala.com/digikala-products/095dbe0a823a16c4d41eb96f62249e404651b1b8_1666883765.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/quality,q_90",
         "https://dkstatics-public.digikala.com/digikala-products/1ba8ddf53a5d753bbc67ad90679793482d5ef7e3_1666883770.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/quality,q_90"
-      ],      "comment": "no comment",
+      ],
+      "comment": "no comment",
       "like": 0,
-      "groups": "1"
-      ,
-      "color":[
-        "green",
-        "black",
-        "orange"
-      ],
-      "size":[
-      "lg",
-      "md",
-      "sm"
-    ]
-    }
-    ,{
+      "groups": "1",
+      "color": ["green", "black", "orange"],
+      "size": ["lg", "md", "sm"]
+    },
+    {
       "id": "dd00",
       "name": "8 seater sofa",
       "price": 2000,
@@ -490,27 +351,18 @@
       "star": 4,
       "detail": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
       "discount": 10,
-     "images": [
+      "images": [
         "https://dkstatics-public.digikala.com/digikala-products/19aebf710a10375f0505a2367e5b2a30c67408e1_1666883742.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90",
         "https://dkstatics-public.digikala.com/digikala-products/acbe0adde90170fd0fea36de8c0bbb370f9c2a9d_1666883746.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/quality,q_90",
         "https://dkstatics-public.digikala.com/digikala-products/095dbe0a823a16c4d41eb96f62249e404651b1b8_1666883765.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/quality,q_90",
         "https://dkstatics-public.digikala.com/digikala-products/1ba8ddf53a5d753bbc67ad90679793482d5ef7e3_1666883770.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/quality,q_90"
-      ],      "comment": "no comment",
-      "like": 8,
-      "groups": "1"
-      ,
-      "color":[
-        "green",
-        "black",
-        "orange"
       ],
-      "size":[
-      "lg",
-      "md",
-      "sm"
-    ]
-    }
-    ,
+      "comment": "no comment",
+      "like": 8,
+      "groups": "1",
+      "color": ["green", "black", "orange"],
+      "size": ["lg", "md", "sm"]
+    },
     {
       "id": "fdfc",
       "name": "8 seater sofa",
@@ -519,25 +371,17 @@
       "star": 4,
       "detail": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
       "discount": 10,
-     "images": [
+      "images": [
         "https://dkstatics-public.digikala.com/digikala-products/6f81a7b38f0c16b8ae44090a16299518f2295326_1675544876.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90",
         "https://dkstatics-public.digikala.com/digikala-products/5da781edf6fe7df1ac57629dfe6b6c848025346f_1675196644.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/quality,q_90",
         "https://dkstatics-public.digikala.com/digikala-products/9c8c4b9c2aeae19e87848db3ebd1faa8c9814be6_1675196736.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/quality,q_90",
         "https://dkstatics-public.digikala.com/digikala-products/0202ff767459a769ea32a7b8e1cad98027b4c6d0_1675196750.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/quality,q_90"
-      ],      "comment": "no comment",
-      "like": 7,
-      "groups": "2"
-      ,
-      "color":[
-        "green",
-        "black",
-        "orange"
       ],
-      "size":[
-      "lg",
-      "md",
-      "sm"
-    ]
+      "comment": "no comment",
+      "like": 7,
+      "groups": "2",
+      "color": ["green", "black", "orange"],
+      "size": ["lg", "md", "sm"]
     },
     {
       "id": "81d6",
@@ -547,27 +391,20 @@
       "star": 4,
       "detail": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
       "discount": 10,
-     "images": [
+      "images": [
         "https://dkstatics-public.digikala.com/digikala-products/b5633a744d8ff113707dc2ed75698b284e451650_1687072510.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90",
         "https://dkstatics-public.digikala.com/digikala-products/9e81380805a68f100f82ba1fed20b344ad92d86c_1687072796.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/quality,q_90",
         "https://dkstatics-public.digikala.com/digikala-products/75c2ff059b668731e92a4e11dda2a547a3ec6b7b_1687072823.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/quality,q_90",
         "https://dkstatics-public.digikala.com/digikala-products/0db1f2d61d38b6fbd5627f900b83f1c4531c8b47_1687073041.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/quality,q_90"
-      ],      "comment": "no comment",
-      "like": 4,
-      
-      "groups": "1"
-      ,
-      "color":[
-        "green",
-        "black",
-        "orange"
       ],
-      "size":[
-      "lg",
-      "md",
-      "sm"
-    ]
-    },{
+      "comment": "no comment",
+      "like": 4,
+
+      "groups": "1",
+      "color": ["green", "black", "orange"],
+      "size": ["lg", "md", "sm"]
+    },
+    {
       "id": "e36d",
       "name": "8 seater sofa",
       "price": 2000,
@@ -584,20 +421,11 @@
 
       "comment": "no comment",
       "like": 2,
-      "groups": "1"
-      ,
-      "color":[
-        "green",
-        "black",
-        "orange"
-      ],
-      "size":[
-      "lg",
-      "md",
-      "sm"
-    ]
-    }
-    ,{
+      "groups": "1",
+      "color": ["green", "black", "orange"],
+      "size": ["lg", "md", "sm"]
+    },
+    {
       "id": "dd00",
       "name": "8 seater sofa",
       "price": 2000,
@@ -605,27 +433,19 @@
       "star": 4,
       "detail": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
       "discount": 10,
-     "images": [
+      "images": [
         "https://dkstatics-public.digikala.com/digikala-products/19aebf710a10375f0505a2367e5b2a30c67408e1_1666883742.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90",
         "https://dkstatics-public.digikala.com/digikala-products/acbe0adde90170fd0fea36de8c0bbb370f9c2a9d_1666883746.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/quality,q_90",
         "https://dkstatics-public.digikala.com/digikala-products/095dbe0a823a16c4d41eb96f62249e404651b1b8_1666883765.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/quality,q_90",
         "https://dkstatics-public.digikala.com/digikala-products/1ba8ddf53a5d753bbc67ad90679793482d5ef7e3_1666883770.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/quality,q_90"
-      ],      "comment": "no comment",
+      ],
+      "comment": "no comment",
       "like": 1,
-      "groups": "1"
-      ,
-      "color":[
-        "green",
-        "black",
-        "orange"
-      ],
-      "size":[
-      "lg",
-      "md",
-      "sm"
-    ]
-    }
-    ,{
+      "groups": "1",
+      "color": ["green", "black", "orange"],
+      "size": ["lg", "md", "sm"]
+    },
+    {
       "id": "dd00",
       "name": "8 seater sofa",
       "price": 2000,
@@ -633,27 +453,18 @@
       "star": 4,
       "detail": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
       "discount": 10,
-     "images": [
+      "images": [
         "https://dkstatics-public.digikala.com/digikala-products/19aebf710a10375f0505a2367e5b2a30c67408e1_1666883742.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90",
         "https://dkstatics-public.digikala.com/digikala-products/acbe0adde90170fd0fea36de8c0bbb370f9c2a9d_1666883746.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/quality,q_90",
         "https://dkstatics-public.digikala.com/digikala-products/095dbe0a823a16c4d41eb96f62249e404651b1b8_1666883765.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/quality,q_90",
         "https://dkstatics-public.digikala.com/digikala-products/1ba8ddf53a5d753bbc67ad90679793482d5ef7e3_1666883770.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/quality,q_90"
-      ],      "comment": "no comment",
-      "like": 43,
-      "groups": "1"
-      ,
-      "color":[
-        "green",
-        "black",
-        "orange"
       ],
-      "size":[
-      "lg",
-      "md",
-      "sm"
-    ]
-    }
-    ,
+      "comment": "no comment",
+      "like": 43,
+      "groups": "1",
+      "color": ["green", "black", "orange"],
+      "size": ["lg", "md", "sm"]
+    },
     {
       "id": "fdfc",
       "name": "8 seater sofa",
@@ -662,25 +473,17 @@
       "star": 4,
       "detail": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
       "discount": 10,
-     "images": [
+      "images": [
         "https://dkstatics-public.digikala.com/digikala-products/6f81a7b38f0c16b8ae44090a16299518f2295326_1675544876.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90",
         "https://dkstatics-public.digikala.com/digikala-products/5da781edf6fe7df1ac57629dfe6b6c848025346f_1675196644.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/quality,q_90",
         "https://dkstatics-public.digikala.com/digikala-products/9c8c4b9c2aeae19e87848db3ebd1faa8c9814be6_1675196736.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/quality,q_90",
         "https://dkstatics-public.digikala.com/digikala-products/0202ff767459a769ea32a7b8e1cad98027b4c6d0_1675196750.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/quality,q_90"
-      ],      "comment": "no comment",
-      "like": 12,
-      "groups": "2"
-      ,
-      "color":[
-        "green",
-        "black",
-        "orange"
       ],
-      "size":[
-      "lg",
-      "md",
-      "sm"
-    ]
+      "comment": "no comment",
+      "like": 12,
+      "groups": "2",
+      "color": ["green", "black", "orange"],
+      "size": ["lg", "md", "sm"]
     },
     {
       "id": "81d6",
@@ -690,27 +493,20 @@
       "star": 4,
       "detail": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
       "discount": 10,
-     "images": [
+      "images": [
         "https://dkstatics-public.digikala.com/digikala-products/b5633a744d8ff113707dc2ed75698b284e451650_1687072510.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90",
         "https://dkstatics-public.digikala.com/digikala-products/9e81380805a68f100f82ba1fed20b344ad92d86c_1687072796.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/quality,q_90",
         "https://dkstatics-public.digikala.com/digikala-products/75c2ff059b668731e92a4e11dda2a547a3ec6b7b_1687072823.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/quality,q_90",
         "https://dkstatics-public.digikala.com/digikala-products/0db1f2d61d38b6fbd5627f900b83f1c4531c8b47_1687073041.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/quality,q_90"
-      ],      "comment": "no comment",
-      "like": 10,
-      
-      "groups": "1"
-      ,
-      "color":[
-        "green",
-        "black",
-        "orange"
       ],
-      "size":[
-      "lg",
-      "md",
-      "sm"
-    ]
-    },{
+      "comment": "no comment",
+      "like": 10,
+
+      "groups": "1",
+      "color": ["green", "black", "orange"],
+      "size": ["lg", "md", "sm"]
+    },
+    {
       "id": "e36d",
       "name": "8 seater sofa",
       "price": 2000,
@@ -727,20 +523,11 @@
 
       "comment": "no comment",
       "like": 7,
-      "groups": "1"
-      ,
-      "color":[
-        "green",
-        "black",
-        "orange"
-      ],
-      "size":[
-      "lg",
-      "md",
-      "sm"
-    ]
-    }
-    ,{
+      "groups": "1",
+      "color": ["green", "black", "orange"],
+      "size": ["lg", "md", "sm"]
+    },
+    {
       "id": "dd00",
       "name": "8 seater sofa",
       "price": 2000,
@@ -748,27 +535,18 @@
       "star": 4,
       "detail": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
       "discount": 10,
-     "images": [
+      "images": [
         "https://dkstatics-public.digikala.com/digikala-products/19aebf710a10375f0505a2367e5b2a30c67408e1_1666883742.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90",
         "https://dkstatics-public.digikala.com/digikala-products/acbe0adde90170fd0fea36de8c0bbb370f9c2a9d_1666883746.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/quality,q_90",
         "https://dkstatics-public.digikala.com/digikala-products/095dbe0a823a16c4d41eb96f62249e404651b1b8_1666883765.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/quality,q_90",
         "https://dkstatics-public.digikala.com/digikala-products/1ba8ddf53a5d753bbc67ad90679793482d5ef7e3_1666883770.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/quality,q_90"
-      ],      "comment": "no comment",
-      "like": 6,
-      "groups": "1"
-      ,
-      "color":[
-        "green",
-        "black",
-        "orange"
       ],
-      "size":[
-      "lg",
-      "md",
-      "sm"
-    ]
+      "comment": "no comment",
+      "like": 6,
+      "groups": "1",
+      "color": ["green", "black", "orange"],
+      "size": ["lg", "md", "sm"]
     }
-   
   ],
   "groups": [
     {
@@ -784,6 +562,5 @@
       "name": "Bedroom"
     }
   ],
-  "users": [
-  ]
+  "users": []
 }
